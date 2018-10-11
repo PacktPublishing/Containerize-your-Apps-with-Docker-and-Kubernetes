@@ -30,7 +30,6 @@ COPY ./web /app/web
 COPY sample.txt /data/my-sample.txt
 ADD sample.tar /app/bin/
 ADD http://example.com/sample.txt /data/
-
 ```
 
 **Following is what you need for this book:**
