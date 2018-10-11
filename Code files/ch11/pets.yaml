@@ -1,0 +1,82 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pets
+      service: web
+  template:
+    metadata:
+      labels:
+        app: pets
+        service: web
+    spec:
+      containers:
+      - image: appswithdockerandkubernetes/ch08-web:1.0
+        name: web
+        ports:
+        - containerPort: 3000
+          protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+spec:
+  type: NodePort
+  ports:
+  - port: 3000
+    protocol: TCP
+  selector:
+    app: pets
+    service: web
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: db
+spec:
+  selector:
+    matchLabels:
+      app: pets
+      service: db
+  serviceName: db
+  template:
+    metadata:
+      labels:
+        app: pets
+        service: db
+    spec:
+      containers:
+      - image: appswithdockerandkubernetes/ch08-db:1.0
+        name: db
+        ports:
+        - containerPort: 5432
+        volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: pets-data
+  volumeClaimTemplates:
+  - metadata:
+      name: pets-data
+    spec:
+      accessModes:
+      - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db
+spec:
+  type: ClusterIP
+  ports:
+  - port: 5432
+    protocol: TCP
+  selector:
+    app: pets
+    service: db

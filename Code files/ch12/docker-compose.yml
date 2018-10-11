@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  web:
+    image: pets-web:v1
+    build: web
+    ports:
+      - 80:80
+  db:
+    image: pets-db:v1
+    build: db
+    

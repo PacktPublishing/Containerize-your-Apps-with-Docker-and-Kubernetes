@@ -1,0 +1,21 @@
+body {
+    background: lightgreen;
+    color: blue;
+}
+
+div.container {
+    width: 500px;
+    margin: 50px auto;
+    border: 20px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+#cat {
+    width: 450px;
+}

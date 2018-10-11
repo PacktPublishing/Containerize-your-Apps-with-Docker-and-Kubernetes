@@ -1,0 +1,17 @@
+{
+    "name": "pets",
+    "version": "1.0.0",
+    "description": "UI for Pets App",
+    "main": "server.js",
+    "scripts": {
+      "watch": "nodemon --inspect --nolazy",
+      "start": "node server.js"
+    },
+    "devDependencies": {
+      "nodemon": "^1.14.7"
+    },
+    "dependencies": {
+      "express": "^4.16.2",
+      "mustache-express": "^1.2.4"
+    }
+  }

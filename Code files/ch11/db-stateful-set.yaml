@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: db
+spec:
+  selector:
+    matchLabels:
+      app: pets
+      service: db
+  serviceName: db
+  template:
+    metadata:
+      labels:
+        app: pets
+        service: db
+    spec:
+      containers:
+      - image: appswithdockerandkubernetes/ch08-db:1.0
+        name: db
+        ports:
+        - containerPort: 5432
+        volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: pets-data
+  volumeClaimTemplates:
+  - metadata:
+      name: pets-data
+    spec:
+      accessModes:
+      - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi

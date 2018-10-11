@@ -1,0 +1,17 @@
+div.container {
+    background: darkgray;
+    color: white;
+    width: 600px;
+    margin: 100px auto;
+    border: 20px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+div.container img {
+    max-width: 500px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
