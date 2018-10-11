@@ -1,8 +1,8 @@
 # Containerize your Apps with Docker and Kubernetes
 
-<a href="https://www.packtpub.com/virtualization-and-cloud/effective-devops-aws-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789539974"><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/2942/2018/09/cover-1.png" alt="Effective DevOps with AWS Second Edition" height="256px" align="right"></a>
+<img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/2942/2018/09/cover-1.png" alt="Effective DevOps with AWS Second Edition" height="256px" align="right">
 
-This is the code repository for [Containerize your Apps with Docker and Kubernetes](https://www.packtpub.com/virtualization-and-cloud/effective-devops-aws-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789539974), published by Packt.
+This is the code repository for <b> Containerize your Apps with Docker and Kubernetes </b>, published by Packt.
 
 **Deploy, scale, orchestrate, and manage containers with Docker and Kubernetes**
 
@@ -48,9 +48,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789610369_ColorImages.pdf).
 
 ### Related products <Paste books from the Other books you may enjoy section>
-* Docker on Windows [[Packt]](https://www.packtpub.com/virtualization-and-cloud/docker-windows?utm_source=github&utm_medium=repository&utm_campaign=9781785281655) [[Amazon]](https://www.amazon.com/dp/1788995503)
+* Docker on Windows [[Packt]](https://www.packtpub.com/virtualization-and-cloud/docker-windows?utm_source=github&utm_medium=repository&utm_campaign=9781785281655) [[Amazon]](https://www.amazon.com/dp/1785281658)
 
-* Expert AWS Development [[Packt]](https://www.packtpub.com/virtualization-and-cloud/expert-aws-development?utm_source=github&utm_medium=repository&utm_campaign=9781788477581) [[Amazon]](https://www.amazon.com/dp/1788477588)
+* Docker for Serverless Applications [[Packt]](https://www.packtpub.com/virtualization-and-cloud/docker-serverless-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788835268) [[Amazon]](https://www.amazon.com/dp/1788835263)
 ## Get to Know the Author
 **Dr. Gabriel N. Schenker**
 has more than 25 years of experience as an independent consultant, architect, leader, trainer, mentor, and developer. Currently, Gabriel works as Senior Curriculum Developer at Confluent after coming from a similar position at Docker. Gabriel has a Ph.D. in Physics, and he is a Docker Captain, a Certified Docker Associate, and an ASP Insider. When not working, Gabriel enjoys time with his wonderful wife Veronicah and his children.
