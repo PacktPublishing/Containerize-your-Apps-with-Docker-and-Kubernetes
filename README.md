@@ -39,6 +39,7 @@ ADD http://example.com/sample.txt /data/
 If you are a developer, system administrator, or DevOps engineer who wants to use Docker and Kubernetes to run your mission-critical applications scalable, securely, and highly available on-prem or in the cloud, then this book is for you. In order to learn from this book, you should have some basic Linux/Unix skills such as installing packages, editing files, managing services, and so on. If you have some basic virtualization experience that would be an added advantage.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-12).
+
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
@@ -51,10 +52,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Docker on Windows [[Packt]](https://www.packtpub.com/virtualization-and-cloud/docker-windows?utm_source=github&utm_medium=repository&utm_campaign=9781785281655) [[Amazon]](https://www.amazon.com/dp/1785281658)
 
 * Docker for Serverless Applications [[Packt]](https://www.packtpub.com/virtualization-and-cloud/docker-serverless-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788835268) [[Amazon]](https://www.amazon.com/dp/1788835263)
-## Get to Know the Author
-**Dr. Gabriel N. Schenker**
-has more than 25 years of experience as an independent consultant, architect, leader, trainer, mentor, and developer. Currently, Gabriel works as Senior Curriculum Developer at Confluent after coming from a similar position at Docker. Gabriel has a Ph.D. in Physics, and he is a Docker Captain, a Certified Docker Associate, and an ASP Insider. When not working, Gabriel enjoys time with his wonderful wife Veronicah and his children.
 
+## Get to Know the Author
+**Dr. Gabriel N. Schenker** has more than 25 years of experience as an independent consultant, architect, leader, trainer, mentor, and developer. Currently, Gabriel works as Senior Curriculum Developer at Confluent after coming from a similar position at Docker. Gabriel has a Ph.D. in Physics, and he is a Docker Captain, a Certified Docker Associate, and an ASP Insider. When not working, Gabriel enjoys time with his wonderful wife Veronicah and his children.
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
