@@ -42,7 +42,7 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-8 | AWS Management Console, AWS compute services, AWS IAM, AWS CLI setup, JavaScript for the web application | Computer with Windows, Linux or macOS |
+| 1-12 | AWS Management Console, AWS compute services, AWS IAM, AWS CLI setup, JavaScript for the web application | Computer with Windows, Linux or macOS |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789610369_ColorImages.pdf).
