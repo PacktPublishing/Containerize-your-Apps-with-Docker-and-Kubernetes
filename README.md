@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B13353?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 # Containerize your Apps with Docker and Kubernetes
 
 <img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/2942/2018/09/cover-1.png" alt="Containerize your Apps with Docker and Kubernetes" height="256px" align="right">
